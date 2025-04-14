@@ -1,0 +1,8 @@
+webpackJsonp([40],{"./src/app/components/journey/step5/pan-mismatch/pan-mismatch.component.html":/*!***********************************************************************************!*\
+  !*** ./src/app/components/journey/step5/pan-mismatch/pan-mismatch.component.html ***!
+  \***********************************************************************************/
+function(t,n){t.exports='<div class="view-container header-spacer"> <div class=row> <div class="col-md-12 col-sm-12 col-xs-12"> <alert-msg type=WARNING> Sorry! We are unable to issue you an HSBC Credit Card as your application does not meet our internal policy norms. </alert-msg> </div> </div> <step-footer show-exit=true exit-callback=$ctrl.exit()></step-footer> </div>'},"./src/app/components/journey/step5/pan-mismatch/pan-mismatch.component.js":/*!*********************************************************************************!*\
+  !*** ./src/app/components/journey/step5/pan-mismatch/pan-mismatch.component.js ***!
+  \*********************************************************************************/
+function(t,n,o){!function(){"use strict";var n=o(/*! angular */"./node_modules/angular/index.js"),e=n.module("app").component("panMismatch",{template:o(/*! ./pan-mismatch.component.html */"./src/app/components/journey/step5/pan-mismatch/pan-mismatch.component.html"),controller:["appState","analyticService",function(t,n){var o=this;o.$onInit=function(){n.trackPageLoad(n.pageList.panMismatch),t.clearAll()},o.exit=function(){n.buttonList.buttonClick.event_content="PAN mismatch: Exit",n.trackUserAction(n.buttonList.buttonClick),window.location.href="http://www.hsbc.co.in/"}}]});t.exports=e.name}()}});
+//# sourceMappingURL=6d2c158d78eea36adca640.js.map

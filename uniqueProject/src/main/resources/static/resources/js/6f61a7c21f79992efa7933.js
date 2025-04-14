@@ -1,0 +1,11 @@
+webpackJsonp([33],{"./src/app/components/common/global-exception-handler/global-exception-handler.component.html":/*!****************************************************************************************************!*\
+  !*** ./src/app/components/common/global-exception-handler/global-exception-handler.component.html ***!
+  \****************************************************************************************************/
+function(o,n){o.exports='<div class="view-container header-spacer"> <h3 class=brand-bar> Spam Identified </h3> <p class=no-margin-b> Form submission looks to be a robotic spam. Please click on exit and resume again. Thanks. </p> <div class=text-right> <button class=button-primary ng-click=$ctrl.exit()>Exit</button> </div> </div>'},"./src/app/components/common/global-exception-handler/global-exception-handler.component.js":/*!**************************************************************************************************!*\
+  !*** ./src/app/components/common/global-exception-handler/global-exception-handler.component.js ***!
+  \**************************************************************************************************/
+function(o,n,e){!function(){"use strict";var n=e(/*! angular */"./node_modules/angular/index.js");e(/*! ./global-exception-handler.component.scss */"./src/app/components/common/global-exception-handler/global-exception-handler.component.scss");var t=function(o,n){var e=this;e.$onInit=function(){o.$broadcast("app-timeout")},e.exit=function(){n.go("app.journey.s1-cards")}},a=n.module("app").component("globalExceptionHandler",{template:e(/*! ./global-exception-handler.component.html */"./src/app/components/common/global-exception-handler/global-exception-handler.component.html"),controller:["$rootScope","$state",t]});o.exports=a.name}()},"./src/app/components/common/global-exception-handler/global-exception-handler.component.scss":/*!****************************************************************************************************!*\
+  !*** ./src/app/components/common/global-exception-handler/global-exception-handler.component.scss ***!
+  \****************************************************************************************************/
+function(o,n){}});
+//# sourceMappingURL=6f61a7c21f79992efa7933.js.map

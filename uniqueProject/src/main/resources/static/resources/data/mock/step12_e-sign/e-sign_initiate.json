@@ -1,0 +1,8 @@
+{
+    "errorCode": 10009,
+    "leadGenerationReason": "string",
+    "message": "string",
+    "otpRetryCount": 0,
+    "signingUrl": "https://www.google.com/",
+    "success": true
+}

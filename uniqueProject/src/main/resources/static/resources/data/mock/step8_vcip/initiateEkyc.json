@@ -1,0 +1,8 @@
+{
+    "success":true,
+    "success1":false,
+    "errorCode":1001,
+    "signingUrl": "https://www.google.com",
+    "responseCode":401,
+    "message":"Link is already sent on registerd email/mobile. Please click on resend if not received."
+}

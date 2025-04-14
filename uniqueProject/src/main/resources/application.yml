@@ -1,0 +1,42 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api-tester	
+# Database configs
+spring:
+  security:
+   user:
+    name: user1
+    password: password@123
+  datasource:
+    url: jdbc:mysql://localhost:3306/yogeshdb
+    username: root
+    password: Yogiji@9191
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
+
+# Hibernate logging
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    #org.hibernate.SQL: DEBUG
+    #org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %level - [%thread] - %logger{36} - %msg%n"
+  file:
+    name: logs/application.log
+    path: logs
+
+# Weather API configs
+app:
+  weather:
+    api:
+      endpoint: http://api.weatherstack.com/current?access_key=API_KEY&query=cityName
+      accessKey: 53a7d0f0206281f0e887640a302e93f5

@@ -1,0 +1,12 @@
+{
+    "success": true,
+    "errorCode": 1,
+    "message": "success",
+    "otpRetryCount": null,
+    "leadGenerationReason": "success",
+    "panStatusFlag": "Y",
+    "accountNumber": "200548754213",
+    "primaryBankName": "CITIBANK",
+    "companyName": "ASCON JUTEX LIMITED.",
+    "grossAnnualIncome": "500000.00"
+}

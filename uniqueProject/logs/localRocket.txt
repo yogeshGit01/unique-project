@@ -1,0 +1,32 @@
+http://localhost:3002/resources/data/mock/step1_cards.json
+http://localhost:3002/#!/app/journey/cards
+http://localhost:8080/api-tester/#!/app/journey/cards
+D:\HSBC PROJECT\ROCKET\BACKEND\Eclipse WorkSpace\YOGESH\SourceCode\uniqueProject\src\main\resources\static\resources\data\mock
+
+D:\HSBC PROJECT\ROCKET\BACKEND\Eclipse WorkSpace\YOGESH\SourceCode\uniqueProject\src\main\resources\static
+
+http://localhost:8080/api-tester/unsupported-browser.html
+
+http://localhost:8080/api-tester/creditcard/getcards?hash_id=0.9993554496977208
+
+
+http://localhost:8080/api-tester/#!/app/journey/cards
+
+
+
+Mysql -u root -p
+
+show databases;
+
+use yogeshdb;
+
+show tables;
+
+describe WEATHER_API_TRANSACTIONS;
+
+select * from user;
+select * from WEATHER_API_TRANSACTIONS;
+drop table user_entity;
+
+ALTER TABLE user MODIFY userid BIGINT AUTO_INCREMENT;
+--------------------------------------------------------------------------

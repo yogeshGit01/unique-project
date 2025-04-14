@@ -1,0 +1,8 @@
+{
+    "success": true,
+    "errorCode": 1,
+    "message": "success",
+    "otpRetryCount": null,
+    "leadGenerationReason": "success",
+    "salaryFlag":"success" 
+}

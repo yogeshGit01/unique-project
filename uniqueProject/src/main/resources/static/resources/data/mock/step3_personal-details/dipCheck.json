@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "responseCode": "00",
+    "responseMsg": "Format Error",
+    "dipCode": 200,
+    "frnLoanTrackerNumber": "RKT/MUM/BZR/1234567",
+    "dipArn": "3635990000000111",
+    "signingUrl": "http://www.hsbc.co.in/"
+}

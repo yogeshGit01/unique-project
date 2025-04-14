@@ -1,0 +1,13 @@
+{
+    "success": true,
+    "responseCode": 1,
+    "responseMessage": "Sorry, Not able to fetch address from Bank Bazaar",
+    "country": "India",
+    "address1": "address1",
+    "address2": "address2",
+    "address3": "address3",
+    "pincode": "110096",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "district": "Mumbai"
+}

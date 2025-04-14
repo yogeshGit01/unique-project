@@ -1,0 +1,7 @@
+{
+    "errorCode": 7002,
+    "leadGenerationReason": "string",
+    "message": "string",
+    "otpRetryCount": 0,
+    "success": false
+}

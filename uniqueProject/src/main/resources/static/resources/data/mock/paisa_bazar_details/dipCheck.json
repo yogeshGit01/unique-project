@@ -1,0 +1,13 @@
+{
+    "success": true,
+    "responseCode": "2001",
+    "dipCode": 104,
+    "status":200,
+    "frnNumber": "PBRKT/MUM/PBZ/0000007",
+    "ekycId":"bXBu4M9VHbGGgDbbvHC5c4zZfli3QudcxlRm457PuUQKwBRzIFo6Es3zm+7dJ20skqoWXg==",
+    "dipArn": "3635990000000111",
+    "signingUrl": "http://www.hsbc.co.in/",
+    "responseMessage" : "Decline due to internal policy",
+	"dipDecision" : "",
+	"errorCode" : "0001"
+}   

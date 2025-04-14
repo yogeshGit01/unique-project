@@ -1,0 +1,46 @@
+{
+    "responseCode": 200,
+    "fetchConsentDetailsResponse": {
+       "responseCode": 200,
+       "responseMessage": "Consent is READY",
+        "consentStatus": "READY",
+        "txnId": "RKTCLU123951175620240402153731671",
+        "accounts": [{
+                    "fipId": "ACME-FIP",
+                    "maskedAccNumber": "XXXXXXXX9960"
+        }],
+        "apiStatusCode": 0
+    },
+    "fetchReportDetailsResponse": {
+        "responseCode": 200,
+        "responseMessage": "Report is COMPLETED",
+        "reportStatus": "COMPLETED",
+        "averageSalary": 23000.00,
+        "salaryDetails": [{
+                        "month": "Oct-23",
+                        "salary": 23000.0
+                        },
+                        {
+                         "month": "Nov-23",
+                         "salary": 22000.0
+                        },
+                        { 
+                         "month": "Dec-23",
+                         "salary": 21000.0
+                         },
+                         {
+                            "month": "Jan-24",
+                         "salary": 22000.0
+                         },
+                         {
+                            "month": "Feb-24",
+                         "salary": 22000.0
+                         },
+                         {
+                            "month": "Mar-24",
+                         "salary": 22000.0
+                         }],
+        "apiStatusCode": 0,
+        "annualSalary": 275000.00
+    }
+}

@@ -1,0 +1,11 @@
+webpackJsonp([24],{"./src/app/components/non-sourcing-city/non-sourcing-city.component.html":/*!*******************************************************************************!*\
+  !*** ./src/app/components/non-sourcing-city/non-sourcing-city.component.html ***!
+  \*******************************************************************************/
+function(n,o){n.exports='<div class="view-container header-spacer"> <div class=row> <div class="col-md-12 col-sm-12 col-xs-12"> <alert-msg type=WARNING> Sorry! We are unable to progress with your application for HSBC Credit Card as we do not have a presence in your city of residence. </alert-msg> </div> </div> <step-footer show-exit=true exit-callback=$ctrl.exit()></step-footer> </div>'},"./src/app/components/non-sourcing-city/non-sourcing-city.component.js":/*!*****************************************************************************!*\
+  !*** ./src/app/components/non-sourcing-city/non-sourcing-city.component.js ***!
+  \*****************************************************************************/
+function(n,o,t){!function(){"use strict";var o=t(/*! angular */"./node_modules/angular/index.js");t(/*! ./non-sourcing-city.component.scss */"./src/app/components/non-sourcing-city/non-sourcing-city.component.scss");var c=o.module("app").component("nonSourcingCity",{template:t(/*! ./non-sourcing-city.component.html */"./src/app/components/non-sourcing-city/non-sourcing-city.component.html"),controller:["analyticService","appState",function(n,o){var t=this;t.$onInit=function(){n.trackPageLoad(n.pageList.nonSourcingCity),o.clearAll()},t.exit=function(){n.buttonList.buttonClick.event_content="exit",n.trackUserAction(n.buttonList.buttonClick),window.location.href="http://www.hsbc.co.in/"}}]});n.exports=c.name}()},"./src/app/components/non-sourcing-city/non-sourcing-city.component.scss":/*!*******************************************************************************!*\
+  !*** ./src/app/components/non-sourcing-city/non-sourcing-city.component.scss ***!
+  \*******************************************************************************/
+function(n,o){}});
+//# sourceMappingURL=b293c86bfc800940ecdf24.js.map

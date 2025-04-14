@@ -1,0 +1,7 @@
+{
+    "success": false,
+    "errorCode": 1,
+    "message": "123456789",
+    "otpRetryCount": null,
+    "leadGenerationReason": "success"
+}

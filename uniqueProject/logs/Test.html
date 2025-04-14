@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Data Fetch</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #data-container {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    .item {
+      margin-bottom: 10px;
+      padding: 5px;
+      border-bottom: 1px solid #ddd;
+    }
+    .response-info {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>API Data Fetch Example</h1>
+  <button id="fetchDataBtn">Fetch Data</button>
+  <div id="data-container"></div>
+
+  <script>
+    // Function to fetch data from API
+    async function fetchData() {
+      const apiUrl = 'http://localhost:8080/api-tester/users/get-all-Users'; // Replace with your API URL
+      const dataContainer = document.getElementById('data-container');
+
+      try {
+        // Clear previous data
+        dataContainer.innerHTML = 'Loading...';
+
+        // Fetch data
+        const response = await fetch(apiUrl, {
+          method: 'GET',
+		  mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
+
+        // Display HTTP status code
+        const responseInfo = document.createElement('div');
+        responseInfo.className = 'response-info';
+        responseInfo.innerHTML = `<p>HTTP Status: ${response.status}</p>`;
+        dataContainer.innerHTML = '';
+        dataContainer.appendChild(responseInfo);
+
+        // Check if response is successful
+        if (!response.ok) {
+          throw new Error(`Error: ${response.status} - ${response.statusText}`);
+        }
+
+        const data = await response.json();
+
+        // Render data to the UI
+        data.forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'item';
+          div.innerHTML = `<strong>${item.title}</strong><p>${item.body}</p>`;
+          dataContainer.appendChild(div);
+        });
+      } catch (error) {
+        dataContainer.innerHTML = `<p class="error">${error.message}</p>`;
+      }
+    }
+
+    // Add event listener to button
+    document.getElementById('fetchDataBtn').addEventListener('click', fetchData);
+  </script>
+</body>
+</html>

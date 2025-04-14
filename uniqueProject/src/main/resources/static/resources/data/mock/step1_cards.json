@@ -1,0 +1,60 @@
+[
+    {
+        "key": "CBC",
+        "name": "HSBC Live+ Credit Card",
+        "imageURL": null,
+        "complimentaryStuff": null,
+        "annualFee": null,
+        "annualFeeCurrency": null,
+        "limit": null,
+        "limitMinimumOfInfo": null,
+        "bankToAssignCreditLimit": false
+    },
+    {
+        "key": "VPC",
+        "name": "HSBC Visa Platinum Credit Card",
+        "imageURL": null,
+        "complimentaryStuff": null,
+        "annualFee": null,
+        "annualFeeCurrency": null,
+        "limit": null,
+        "limitMinimumOfInfo": null,
+        "bankToAssignCreditLimit": false
+    },
+    {
+        "key": "SVC",
+        "name": "HSBC TAJ Credit Card",
+        "imageURL": null,
+        "complimentaryStuff": null,
+        "annualFee": null,
+        "annualFeeCurrency": null,
+        "limit": null,
+        "limitMinimumOfInfo": null,
+        "bankToAssignCreditLimit": false
+    },
+    {
+        "key": "HPR",
+        "name": "HSBC Premier Credit Card",
+        "imageURL": null,
+        "complimentaryStuff": null,
+        "annualFee": null,
+        "annualFeeCurrency": null,
+        "limit": null,
+        "limitMinimumOfInfo": null,
+        "bankToAssignCreditLimit": false
+    },
+    {
+        "key": "MJY",
+        "name": "Travel One Card",
+        "imageURL": null,
+        "complimentaryStuff": null,
+        "annualFee": null,
+        "annualFeeCurrency": null,
+        "limit": null,
+        "limitMinimumOfInfo": null,
+        "bankToAssignCreditLimit": false
+    }
+    
+    
+    
+]

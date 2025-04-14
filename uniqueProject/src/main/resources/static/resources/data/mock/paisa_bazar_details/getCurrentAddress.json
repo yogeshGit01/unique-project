@@ -1,0 +1,16 @@
+{
+    "success": true,
+    "responseCode": 1,
+    "responseMessage": "Sorry, Not able to fetch address from Bank Bazaar",
+    "country": "India",
+    "address_line1": "address1",
+    "address_line2": "address2",
+    "address_line3": "address3",
+    "pin_code": "110096",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "full_name_pan" : "Akshay Pise",
+	"mobile_number" : "9766656413",
+	"email_address" : "akshay@gmail.com"
+}
