@@ -1,0 +1,96 @@
+2025-04-14 18:28:32.779  INFO 12804 --- [main] c.c.u.UniqueProjectApplication           : Starting UniqueProjectApplication using Java 1.8.0_301 on LPT3329 with PID 12804 (D:\YogeshGit_01\VSCode\unique-project\uniqueProject\target\classes started by yogesh.choudhary in D:\YogeshGit_01\VSCode\unique-project)
+2025-04-14 18:28:32.783  INFO 12804 --- [main] c.c.u.UniqueProjectApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-14 18:28:33.690  INFO 12804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 18:28:33.775  INFO 12804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2025-04-14 18:28:35.301  INFO 12804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2025-04-14 18:28:35.301  INFO 12804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-14 18:28:35.315  INFO 12804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-14 18:28:35.431  INFO 12804 --- [main] o.a.c.c.C.[.[localhost].[/api-tester]    : Initializing Spring embedded WebApplicationContext
+2025-04-14 18:28:35.431  INFO 12804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2576 ms
+2025-04-14 18:28:36.121  INFO 12804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 18:28:36.190  INFO 12804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-14 18:28:36.389  INFO 12804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-14 18:28:36.558  INFO 12804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-14 18:28:36.982  INFO 12804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-14 18:28:37.020  INFO 12804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-14 18:28:37.987  INFO 12804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-14 18:28:38.008  INFO 12804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 18:28:38.857  WARN 12804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 18:28:39.079  INFO 12804 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-04-14 18:28:39.083  INFO 12804 --- [main] c.c.u.Configuration.WebMVCConfig         : inside addInterceptor
+2025-04-14 18:28:39.505  INFO 12804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path '/api-tester'
+2025-04-14 18:28:39.525  INFO 12804 --- [main] c.c.u.UniqueProjectApplication           : Started UniqueProjectApplication in 7.495 seconds (JVM running for 7.945)
+2025-04-14 18:29:19.975  INFO 12804 --- [http-nio-9090-exec-1] o.a.c.c.C.[.[localhost].[/api-tester]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 18:29:19.975  INFO 12804 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-14 18:29:19.977  INFO 12804 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-14 18:29:20.018  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : requestURL: http://localhost:9090/api-tester/
+2025-04-14 18:29:20.018  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : Request is coming from a browser or another client
+2025-04-14 18:29:20.054  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : browserName: CHROME13, majVersion: 135
+2025-04-14 18:29:20.081  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : requestURL: http://localhost:9090/api-tester/index.html
+2025-04-14 18:29:20.081  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : Request is coming from a browser or another client
+2025-04-14 18:29:20.081  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : browserName: CHROME13, majVersion: 135
+2025-04-14 18:29:20.105  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : requestUrl: http://localhost:9090/api-tester/index.html, responseCode: 200 
+2025-04-14 18:29:20.105  INFO 12804 --- [http-nio-9090-exec-1] c.c.u.Security.HttpRequestInterceptor    : requestUrl: http://localhost:9090/api-tester/, responseCode: 200 
+2025-04-14 18:29:36.626  INFO 12804 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : requestURL: http://localhost:9090/api-tester/api/token/init
+2025-04-14 18:29:36.626  INFO 12804 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : Request is coming from Postman
+2025-04-14 18:29:36.805  INFO 12804 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : requestUrl: http://localhost:9090/api-tester/api/token/init, responseCode: 200 
+2025-04-14 18:42:14.941  INFO 23908 --- [main] c.c.u.UniqueProjectApplication           : Starting UniqueProjectApplication using Java 1.8.0_301 on LPT3329 with PID 23908 (D:\YogeshGit_01\VSCode\unique-project\uniqueProject\target\classes started by yogesh.choudhary in D:\YogeshGit_01\VSCode\unique-project)
+2025-04-14 18:42:14.953  INFO 23908 --- [main] c.c.u.UniqueProjectApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-14 18:42:15.902  INFO 23908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 18:42:15.992  INFO 23908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2025-04-14 18:42:17.266  INFO 23908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2025-04-14 18:42:17.300  INFO 23908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-14 18:42:17.301  INFO 23908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-14 18:42:17.502  INFO 23908 --- [main] o.a.c.c.C.[.[localhost].[/api-tester]    : Initializing Spring embedded WebApplicationContext
+2025-04-14 18:42:17.514  INFO 23908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2478 ms
+2025-04-14 18:42:18.333  INFO 23908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 18:42:18.459  INFO 23908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-14 18:42:18.736  INFO 23908 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-14 18:42:18.882  INFO 23908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-14 18:42:19.290  INFO 23908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-14 18:42:19.336  INFO 23908 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-14 18:42:20.465  INFO 23908 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-14 18:42:20.491  INFO 23908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 18:42:21.260  WARN 23908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 18:42:21.503  INFO 23908 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-04-14 18:42:21.507  INFO 23908 --- [main] c.c.u.Configuration.WebMVCConfig         : inside addInterceptor
+2025-04-14 18:42:21.967  INFO 23908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path '/api-tester'
+2025-04-14 18:42:21.981  INFO 23908 --- [main] c.c.u.UniqueProjectApplication           : Started UniqueProjectApplication in 7.581 seconds (JVM running for 7.984)
+2025-04-14 18:42:43.476  INFO 23908 --- [http-nio-9090-exec-2] o.a.c.c.C.[.[localhost].[/api-tester]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 18:42:43.476  INFO 23908 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-14 18:42:43.480  INFO 23908 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-14 18:42:43.519  INFO 23908 --- [http-nio-9090-exec-2] c.c.u.Security.HttpRequestInterceptor    : requestURL: http://localhost:9090/api-tester/api/token/init
+2025-04-14 18:42:43.534  INFO 23908 --- [http-nio-9090-exec-2] c.c.u.Security.HttpRequestInterceptor    : Request is coming from Postman
+2025-04-14 18:42:43.688  INFO 23908 --- [http-nio-9090-exec-2] c.c.u.Security.HttpRequestInterceptor    : requestUrl: http://localhost:9090/api-tester/api/token/init, responseCode: 200 
+2025-04-14 18:42:58.404  INFO 23908 --- [http-nio-9090-exec-3] c.c.u.Security.RateLimitFilter           : rate limiting
+2025-04-14 18:42:58.432  INFO 23908 --- [http-nio-9090-exec-3] c.c.uniqueProject.Security.JwtFilter     : Received request for URI: /api-tester/api/secure/data
+2025-04-14 18:42:58.437  INFO 23908 --- [http-nio-9090-exec-3] c.c.uniqueProject.Security.JwtFilter     : X-Unique-Key: ****
+2025-04-14 18:42:58.437  INFO 23908 --- [http-nio-9090-exec-3] c.c.uniqueProject.Security.JwtFilter     : Validating token for secure endpoint...
+2025-04-14 18:42:58.487  INFO 23908 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : requestURL: http://localhost:9090/api-tester/api/secure/data
+2025-04-14 18:42:58.488  INFO 23908 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : Request is coming from Postman
+2025-04-14 18:42:58.489  INFO 23908 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : requestUrl: http://localhost:9090/api-tester/api/secure/data, responseCode: 200 
+2025-04-14 18:54:42.931  INFO 12832 --- [main] c.c.u.UniqueProjectApplication           : Starting UniqueProjectApplication using Java 1.8.0_301 on LPT3329 with PID 12832 (D:\YogeshGit_01\VSCode\unique-project\uniqueProject\target\classes started by yogesh.choudhary in D:\YogeshGit_01\VSCode\unique-project)
+2025-04-14 18:54:42.934  INFO 12832 --- [main] c.c.u.UniqueProjectApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-14 18:54:43.641  INFO 12832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 18:54:43.716  INFO 12832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2025-04-14 18:54:44.813  INFO 12832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2025-04-14 18:54:44.813  INFO 12832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-14 18:54:44.813  INFO 12832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-04-14 18:54:44.958  INFO 12832 --- [main] o.a.c.c.C.[.[localhost].[/api-tester]    : Initializing Spring embedded WebApplicationContext
+2025-04-14 18:54:44.958  INFO 12832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1958 ms
+2025-04-14 18:54:45.760  INFO 12832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 18:54:45.831  INFO 12832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-14 18:54:46.014  INFO 12832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-14 18:54:46.096  INFO 12832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-14 18:54:46.533  INFO 12832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-14 18:54:46.579  INFO 12832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-14 18:54:48.539  INFO 12832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-14 18:54:48.570  INFO 12832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 18:54:49.952  WARN 12832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 18:54:50.361  INFO 12832 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-04-14 18:54:50.368  INFO 12832 --- [main] c.c.u.Configuration.WebMVCConfig         : inside addInterceptor
+2025-04-14 18:54:50.913  INFO 12832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path '/api-tester'
+2025-04-14 18:54:50.941  INFO 12832 --- [main] c.c.u.UniqueProjectApplication           : Started UniqueProjectApplication in 8.461 seconds (JVM running for 8.828)
+2025-04-14 18:55:03.576  INFO 12832 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 18:55:03.576  INFO 12832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-14 18:55:03.596  INFO 12832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

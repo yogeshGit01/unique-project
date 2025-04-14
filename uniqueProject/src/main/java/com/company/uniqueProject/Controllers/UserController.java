@@ -16,7 +16,6 @@ import com.company.uniqueProject.Dto.UserDto;
 import com.company.uniqueProject.Repository.Entities.UserEntity;
 import com.company.uniqueProject.Service.UserService;
 
-import jdk.internal.org.jline.utils.Log;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
