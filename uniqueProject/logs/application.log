@@ -119,3 +119,4 @@
 2025-04-15 13:21:43.803  INFO 4404 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : browserName: CHROME13, majVersion: 135
 2025-04-15 13:21:43.812  INFO 4404 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : requestUrl: http://localhost:9090/api-tester/index.html, responseCode: 200 
 2025-04-15 13:21:43.813  INFO 4404 --- [http-nio-9090-exec-3] c.c.u.Security.HttpRequestInterceptor    : requestUrl: http://localhost:9090/api-tester/, responseCode: 200 
+2025-04-15 13:49:55.400  WARN 4404 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m44s470ms830µs800ns).
