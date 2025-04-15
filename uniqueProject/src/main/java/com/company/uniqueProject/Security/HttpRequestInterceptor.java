@@ -18,12 +18,25 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class HttpRequestInterceptor implements HandlerInterceptor {
 
+	private static final String EXPECTED_HOST = "localhost:9090";
+
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		
+		String hostHeader = request.getHeader("Host");
 
-		log.info("requestURL: {}", request.getRequestURL());
+		if (hostHeader == null || !hostHeader.equalsIgnoreCase(EXPECTED_HOST)) {
+			log.info("invalidHost: {}",hostHeader);
+			response.sendError(HttpServletResponse.SC_FORBIDDEN, "Invalid Host Header");
+			return false;
+		}
+//		log.info("validHost: {}",hostHeader);
 
+
+//		log.info("requestURL: {}", request.getRequestURL());
+        
+        
 		String userAgent = request.getHeader("User-Agent");
 
 		if (userAgent != null) {
@@ -72,5 +85,8 @@ public class HttpRequestInterceptor implements HandlerInterceptor {
 		log.info("requestUrl: {}, responseCode: {} ", request.getRequestURL(), response.getStatus());
 
 	}
+	
+
+
 
 }
